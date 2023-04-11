@@ -21,6 +21,7 @@
 		33D9777C29E42CF6001F172B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9777B29E42CF6001F172B /* Message.swift */; };
 		33D9778329E52D3D001F172B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9778129E52D3D001F172B /* MessageCell.swift */; };
 		33D9778429E52D3D001F172B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33D9778229E52D3D001F172B /* MessageCell.xib */; };
+		33D9778629E582EA001F172B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 33D9778529E582EA001F172B /* README.md */; };
 		A0F7D27B1572A418C44DB77B /* Pods_Babble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464B4739627D8430CE931886 /* Pods_Babble.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		33D9777B29E42CF6001F172B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Babble/Message.swift; sourceTree = SOURCE_ROOT; };
 		33D9778129E52D3D001F172B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		33D9778229E52D3D001F172B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		33D9778529E582EA001F172B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		464B4739627D8430CE931886 /* Pods_Babble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F60123C150BC6BD5CA9AABE /* Pods-Babble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babble.release.xcconfig"; path = "Target Support Files/Pods-Babble/Pods-Babble.release.xcconfig"; sourceTree = "<group>"; };
 		CCDD47287BB6F3F96E2DEE4D /* Pods-Babble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babble.debug.xcconfig"; path = "Target Support Files/Pods-Babble/Pods-Babble.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		0B62816A235DEE8100E35CAF = {
 			isa = PBXGroup;
 			children = (
+				33D9778729E58352001F172B /* Screenshots */,
+				33D9778529E582EA001F172B /* README.md */,
 				0B628175235DEE8100E35CAF /* Babble */,
 				0B628174235DEE8100E35CAF /* Products */,
 				F86D24A3F1B0486FA5A2E3F3 /* Pods */,
@@ -120,6 +124,13 @@
 				33D9777B29E42CF6001F172B /* Message.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		33D9778729E58352001F172B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		EE9136DFCCF4066414E02084 /* Frameworks */ = {
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9778629E582EA001F172B /* README.md in Resources */,
 				33D9778429E52D3D001F172B /* MessageCell.xib in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,

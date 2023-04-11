@@ -26,6 +26,9 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         titleLabel.text = K.appName
+        
+        
+        
 //        titleLabel.text = ""
 //        var charIndex = 0.0
 //        let titleText = "💬Babble"
